@@ -1,0 +1,383 @@
+* {
+	//box-sizing: border-box;
+	//border: 1px solid black;
+}
+
+
+#header, #content, #footer {
+	width: 100%;
+}
+
+.wrapper {
+	height: 100%;
+	width: 1200px;
+	margin : 0 auto;
+	position: relative;
+}
+.treatment-types-image  {
+	width: 50%;
+	margin-left: 50px;
+	position: relative;
+}
+
+#header {
+	background-color: lightblue;
+	height: 200px;
+	font-family: 'Oswald', serif;
+}
+
+ #header ul {
+position: absolute;
+}
+
+#header ul {
+
+text-transform: uppercase;
+right : 0;
+margin-top: 50px;
+font-weight: 300;
+padding: 0;
+
+
+list-style: none;
+}
+
+
+#header ul li {
+	display: inline-block;
+	margin-left: 40px;
+	margin-right:0px;
+}
+
+#header .logo-image{
+	width : 20%;
+
+	position: absolute;
+	margin-top: 20px;
+}
+
+#header ul li a {
+	text-decoration: none;
+	color: darkblue;
+}
+
+#header ul li a:hover, #header ul li.current a{
+	font-weight: bold; 
+
+}
+ #header .uk-breadcrumb{
+ 	position: absolute;
+ 	margin-top: 160px;
+ 	margin-left: 0px;
+ 	}
+
+#treatments-intro {
+	background-color: white;
+	height: 900px;
+	font-family: 'Oswald', serif;
+
+ }
+ 
+
+ #treatments-intro h1 {
+ 	font-weight: 700px;
+ 	color : darkblue;
+ 	text-align: center;
+
+
+ }
+
+ #treatments-intro p {
+ 	font-weight: 300px;
+ 	color : black;
+ 
+ 	font-family: 'Merriweather', serif;
+ 	text-align: center;
+
+ }
+
+ .treatment-types{
+ 	text-align: center;
+ 	margin-top: -700px;
+ 	width: 50%;
+width: 100%;
+margin-left: 0px;
+ 	}
+
+ .treatment-types h3 {
+
+ 	font-weight: 700px;
+
+ 	font-family: 'oswald';
+ 	color:darkblue;
+ 	 	}
+
+ 	 	.treatment-types p {
+ 	font-weight: 400px;
+ 	font-family: 'merriweather', serif;
+ 	color:black;
+ 	 	}
+
+.treatment-types-description { 
+	margin-top: 20px;
+	 	background-color: lightblue;
+
+	margin-left: 300px;
+	text-align: center;
+ 	width: 50%;
+ 	}
+
+.treatment-types-description h3 {
+ 	font-weight: 700px;
+
+ 	font-family: 'oswald';
+ 	color:darkblue;
+ 	 	}
+.treatment-types-description p {
+
+ 	font-weight: 400px;
+ 	font-family: 'merriweather', serif;
+ 	color:black;
+ 	 	}
+
+.highlight {
+	background-color: yellow;
+
+}
+
+#footer {	
+	display: inline-block;
+
+	background-color: darkblue;
+	height: 300px;
+	}
+
+.logo-image-footer  {
+	width: 10%;
+
+}
+	.facebook  {
+		width: 5%;
+		margin-left: 250px;
+		margin-top: -180px;
+
+	}
+
+	.instagram  {
+		width: 5%;
+		margin-top: -180px;
+
+	}
+
+	.youtube {
+		width: 5%;
+		margin-top: -180px;
+
+	}
+
+	#footer h4  {
+			display: inline-block;
+			padding-right: 50px;
+			padding-left: 10px;
+		font-family: "Oswald", serif;
+		font-weight: 700;
+		color: whitesmoke;
+	}
+#searchBar {
+	margin-left: 490px;
+	text-align: right;
+	margin-top: -45px;
+
+ }
+
+
+ #About-footer {
+ 	color: whitesmoke;
+ 	list-style: none;
+ 	margin-left: 105px;
+ 	margin-top: -80px;
+
+ }
+
+ #home-intro {
+	background-color: white;
+	height: 200px;
+	font-family: 'Oswald', serif;
+
+ }
+
+#home-intro h1 {
+ 	font-weight: 700px;
+ 	color : darkblue;
+ 	text-align: center;
+
+ }
+
+#home-intro p {
+ 	font-weight: 300px;
+ 	color : black;
+ 
+ 	font-family: 'Merriweather', serif;
+ 	text-align: center;
+
+ }
+ .website-sections {
+ 	height: 1000px;
+ }
+ 
+ .website-sections h2 {
+ 	font-weight: 700px;
+ 	font-family: 'oswald';
+ 	color: darkblue;
+ }
+
+ .website-sections-description p {
+ 	font-weight: 300px;
+ 	color : black;
+ 	text-align: center;
+
+ }
+
+ .website-sections-description { 
+	margin-top: 20px;
+	 	background-color: lightblue;
+
+	margin-left: 300px;
+	text-align: center;
+ 	width: 50%;
+ 	}
+
+ #membership p { 
+	font-family: "Oswald", serif;
+	color: black;
+	
+ 	}
+
+#searchBar p { 
+	font-family: "Oswald", serif;
+	color: darkgrey;
+	
+ 	}
+
+ #whatis-intro h1 {
+ 	font-weight: 700px;
+ 	color : darkblue;
+ 	text-align: center;
+
+ }
+
+ #whatis-intro p {
+ 	font-weight: 300px;
+ 	color : black;
+ 
+ 	font-family: 'Merriweather', serif;
+ 	text-align: center;
+
+ }
+ #whatis-intro {
+	background-color: white;
+	height: 300px;
+	font-family: 'Oswald', serif;
+
+ }
+
+ #asthma-types h2 {
+ 	font-weight: 700px;
+ 	font-family: 'oswald';
+ 	color: darkblue;
+ 	text-align : center;
+ }
+
+ .asthma-types-description p {
+ 	font-weight: 300px;
+ 	color : black;
+ 	text-align: center;
+  	font-family: 'Merriweather', serif;
+
+
+ }
+
+ .asthma-types-description { 
+	margin-top: 20px;
+	 	background-color: lightblue;
+
+	margin-left: 300px;
+	text-align: center;
+ 	width: 50%;
+ 	}
+
+ 	#gettoknowme h2 {
+ 	font-weight: 700px;
+ 	font-family: 'oswald';
+ 	color: darkblue;
+ 	text-align : center;
+ }
+
+ 	.founder  {
+		width: 10%;
+		margin-left:550px;
+		margin-top: 0px;
+
+	}
+
+	#symptoms-intro h1 {
+ 	font-weight: 700px;
+ 	color : darkblue;
+ 	text-align: center;
+
+ }
+
+ #symptoms-intro p {
+ 	font-weight: 300px;
+ 	color : black;
+ 
+ 	font-family: 'Merriweather', serif;
+ 	text-align: center;
+
+ }
+
+ #asthma-symptoms h2 {
+ 	font-weight: 700px;
+ 	font-family: 'oswald';
+ 	color: darkblue;
+ 	text-align : center;
+ }
+
+.asthma-symptoms-description p {
+ 	font-weight: 300px;
+ 	color : black;
+ 	text-align: center;
+  	font-family: 'Merriweather', serif;
+
+
+ }
+
+ .asthma-symptoms-description { 
+	margin-top: 20px;
+	 	background-color: lightblue;
+
+	margin-left: 300px;
+	text-align: center;
+ 	width: 50%;
+ 	}
+
+ 	#note {
+ 	font-family: 'merriweather';
+ 	color: red;
+ 	text-align : center;
+ }
+
+ #video p {
+ 	font-family: 'merriweather';
+ 	color: black;
+ 	text-align : center;
+ }
+
+ iframe {
+ 	margin-left: 440px;
+ }
+
+ #warning p {
+ 	color: white;
+ 	text-align : center;
+ }
